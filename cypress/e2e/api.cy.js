@@ -3,7 +3,8 @@ describe("API- Backend - DemoQA Boockstore", () => {
   it("Deberia generar un token JWT valido", () => {
     cy.request({
       method: "POST",
-      url: "/BookStore/v1/GenerateToken",
+      url: "/Account/v1/GenerateToken",
+      //url: "/BookStore/v1/GenerateToken",
       body: {
         userName: "testuser",
         password: "TestPass123!",
