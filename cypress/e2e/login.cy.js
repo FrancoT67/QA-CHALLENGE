@@ -1,6 +1,6 @@
 describe("Login Frontend - DemoQA", () => {
   it("deberia loguearse con las credenciales validas", () => {
-    cy.visit("https://demoqa.com/login");
+    cy.visit("/login");
 
     cy.get("#userName").type("testuser");
     cy.get("#password").type("TestPass123!");
