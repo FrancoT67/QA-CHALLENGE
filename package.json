@@ -1,0 +1,21 @@
+{
+  "name": "pruebaqa",
+  "version": "1.0.0",
+  "description": "prueba de automatizacion con cypress",
+  "main": "cypress.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancoT67/QA-CHALLENGE.git"
+  },
+  "author": "Franco Toledo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancoT67/QA-CHALLENGE/issues"
+  },
+  "homepage": "https://github.com/FrancoT67/QA-CHALLENGE#readme"
+}
